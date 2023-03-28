@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(53, 53, 53);
+}
+
+.hidden {
+    display: none;
+}
+
+
+img {
+    width: 80%;
+}
