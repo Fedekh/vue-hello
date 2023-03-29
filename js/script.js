@@ -10,7 +10,8 @@ createApp({                     //Inizializziamo un'instanza dell'applicazione V
             username: "Buongiorno scrivi come ti chiami",
             imgUrl: "https://www.orientsoftware.com/Media/Default/Images/BlogPost/2022-12-19/software-engineer-burnout.jpg",
             classCommon : "text-center mx-auto my-3" ,             
-            hiddenClass: "hidden w-100"   // creo una key di proposito con un nome utile in css cosi da poterla richiamare come classe poi nel methods per farla comparire o meno
+            hiddenClass: "hidden w-100",   // creo una key di proposito con un nome utile in css cosi da poterla richiamare come classe poi nel methods per farla comparire o meno
+            userInput :""
         }
     },
     methods: {
@@ -25,3 +26,4 @@ createApp({                     //Inizializziamo un'instanza dell'applicazione V
     }
     
 }).mount("#app");        //Invochiamo il metodo .mount() per connettere l'istanza al tag HTML con id #app e renderizzare l'app
+
